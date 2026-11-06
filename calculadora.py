@@ -1,7 +1,7 @@
 # calculadora.py
 # Funciones simples que el pipeline probará en cada cambio.
 def sumar(a, b):
-    return a + b
+    return a + b + 99 #error intencional 
 
 def restar(a, b):
     return a - b

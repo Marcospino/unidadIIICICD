@@ -10,7 +10,7 @@ on:
 
 # JOBS: trabajos que se ejecutan cuando ocurre el evento
 jobs:
-  build:
+  build-and-test:
     name: Build y pruebas
     runs-on: ubuntu-latest
     steps:
